@@ -218,9 +218,11 @@ From the DNS server , from each other host, you can check if it can access the o
 dig worker01.amreid.com
 OR  # nslookup worker01.amreid.com
 Preferably nslookup and make sure to read the results carefully, If it shows this last line message, then it is not going to work properly. 
+
  ![](images/Picture111.png)
  
 The right execution should looks like 
+
  ![](images/Picture112.png)
 
 03-02 Installing Openshift -3.11
@@ -235,6 +237,7 @@ On the Master Node:
 ssh-keygen
 Then 
 for host in master.amreid.com worker01.amreid.com worker02.amreid.com; do ssh-copy-id $host; done
+
  ![](images/Picture113.png)
 
 
