@@ -31,18 +31,18 @@ For Mac Users
 
 From a Mac machine, install MotionPro Plus using App Store
 
-   
+   ![](images/Picture001.png)
 
 
 
 On IBM Cloud Portal, Enable SSL VPN Access for the user and manage its password
 
-
+   ![](images/Picture002.png)
 
 
 Preferably change the password. If not you need to capture the user/password from IAM/Users/User Page
 
-
+   ![](images/Picture003.png)
 
 Get the Client up and running
 You will need to feed MotionPro with the endpoint, In our case  “vpn.fra02.softlayer.com”
